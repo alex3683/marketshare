@@ -1,0 +1,31 @@
+{
+   "name": "ReceiptInputWidget",
+   "description": "My new LaxarJS widget",
+
+   "integration": {
+      "technology": "angular",
+      "type": "widget"
+   },
+   
+   "controls": [
+      "laxar-input-control"
+   ],
+
+   "features": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {
+         
+         "addReceipt": {
+            "type": "object",
+            "properties": {
+               "action": {
+                  "type": "string",
+                  "format": "topic"
+               }
+            }
+         }
+         
+      }
+   }
+}

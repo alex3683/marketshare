@@ -1,0 +1,32 @@
+<form>
+    <div class="form-group">
+        <label ax-for="'amount'">Betrag:</label>
+        <input type="text"
+               class="form-control"
+               ax-id="'amount'"
+               ax-input="decimal"
+               ng-model="model.receipt.amount"
+               ng-disabled="model.formDisabled"/>
+    </div>
+    <div class="form-group">
+        <label ax-for="'comment'">Kommentar:</label>
+        <input type="text"
+               class="form-control"
+               ax-id="'comment'"
+               ng-model="model.receipt.comment"
+               ng-disabled="model.formDisabled"/>
+    </div>
+    <div class="form-group">
+        <label ax-for="'paidBy'">Bezahlt von:</label>
+        <input type="text"
+               class="form-control"
+               ax-id="'paidBy'"
+               ng-model="model.receipt.paidBy"
+               ng-disabled="model.formDisabled"/>
+    </div>
+    <div>
+        <button type="submit"
+                class="btn btn-default"
+                ng-click="actions.addReceipt();">Hinzufügen</button>
+    </div>
+</form>

@@ -1,0 +1,25 @@
+{
+   "layout": "one_column",
+
+   "areas": {
+      "activities": [
+      ],
+
+      "header": [
+      ],
+
+      "content": [
+         {
+            "widget": "marketshare/receipt-input-widget",
+            "features": {
+               "addReceipt": {
+                  "action": "addReceipt"
+               }
+            }
+         }
+      ],
+
+      "footer": [
+      ]
+   }
+}
